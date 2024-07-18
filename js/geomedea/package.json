@@ -1,0 +1,19 @@
+{
+  "name": "geomedea-wasm",
+  "type": "module",
+  "collaborators": [
+    "Michael Kirk <michael.code@endoftheworl.de>"
+  ],
+  "description": "read geomedea from the web with wasm",
+  "version": "0.1.0",
+  "files": [
+    "geomedea_bg.wasm",
+    "geomedea.js",
+    "geomedea.d.ts"
+  ],
+  "main": "geomedea.js",
+  "types": "geomedea.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
